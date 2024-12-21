@@ -597,6 +597,10 @@ section.work-section .container .work-cards .work-card p.card-text {
 
     /* Navbar Settings */
 
+    nav.navbar .container {
+        max-width: 980px;
+    }
+
     nav.navbar .container .nav-menu {
         display: none;
     }
@@ -648,6 +652,10 @@ section.work-section .container .work-cards .work-card p.card-text {
 
     /* Navbar Settings */
 
+    nav.navbar .container {
+        padding: 0 25px;
+    }
+
     nav.navbar .container .nav-menu {
         display: none;
     }
@@ -665,117 +673,31 @@ section.work-section .container .work-cards .work-card p.card-text {
     }
 
     nav.navbar .container .mobile-menu-items {
-        right: 110px;
-    }
-}
-
-
-/* Mobile Nav Menu Responsive Styles */
-
-@media only screen and (max-width: 725px) {
-    nav.navbar .container .mobile-menu-items {
-        right: 100px;
-    }
-}
-
-@media only screen and (max-width: 710px) {
-    nav.navbar .container .mobile-menu-items {
-        right: 95px;
-    }
-}
-
-@media only screen and (max-width: 700px) {
-    nav.navbar .container .mobile-menu-items {
-        right: 88px;
-    }
-}
-
-@media only screen and (max-width: 690px) {
-    nav.navbar .container .mobile-menu-items {
-        right: 84px;
-    }
-}
-
-@media only screen and (max-width: 680px) {
-    nav.navbar .container .mobile-menu-items {
-        right: 80px;
-    }
-}
-
-@media only screen and (max-width: 670px) {
-    nav.navbar .container .mobile-menu-items {
-        right: 72px;
-    }
-}
-
-@media only screen and (max-width: 660px) {
-    nav.navbar .container .mobile-menu-items {
-        right: 70px;
-    }
-}
-
-@media only screen and (max-width: 650px) {
-    nav.navbar .container .mobile-menu-items {
-        right: 65px;
-    }
-}
-
-@media only screen and (max-width: 640px) {
-    nav.navbar .container .mobile-menu-items {
-        right: 60px;
-    }
-}
-
-@media only screen and (max-width: 630px) {
-    nav.navbar .container .mobile-menu-items {
-        right: 55px;
-    }
-}
-
-@media only screen and (max-width: 620px) {
-    nav.navbar .container .mobile-menu-items {
-        right: 50px;
-    }
-}
-
-@media only screen and (max-width: 610px) {
-    nav.navbar .container .mobile-menu-items {
-        right: 45px;
-    }
-}
-
-@media only screen and (max-width: 600px) {
-    nav.navbar .container .mobile-menu-items {
-        right: 38px;
-    }
-}
-
-@media only screen and (max-width: 590px) {
-    nav.navbar .container .mobile-menu-items {
-        right: 30px;
-    }
-}
-
-@media only screen and (max-width: 585px) {
-    nav.navbar .container .mobile-menu-items {
         right: 25px;
     }
 }
 
-@media only screen and (max-width: 580px) {
+
+/* =============================================================== */
+
+/* Mobile Nav Menu Responsive Styles */
+
+@media only screen and (min-width: 751px) and (max-width: 980px) {
+    nav.navbar .container {
+        padding: 0 20px;
+    }
+
     nav.navbar .container .mobile-menu-items {
         right: 20px;
     }
 }
 
-@media only screen and (max-width: 575px) {
-    nav.navbar .container .mobile-menu-items {
-        right: 15px;
-    }
-}
-
 @media only screen and (max-width: 570px) {
     nav.navbar .container .mobile-menu-items {
-        right: 10px;
+        right: 30px;
+    }
+
+    nav.navbar .container {
+        padding: 0 30px;
     }
 }
