@@ -1,16 +1,18 @@
-/* Import Inter Font */
+/* ----------------------------------
+-- Import Inter Font
+---------------------------------- */
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+
+/* ==================================
+-- Reset Settings
+================================== */
 
 * {
     margin: 0;
     padding: 0;
     outline: 0;
     box-sizing: border-box;
-}
-
-:root {
-    --primary-color: #6a4df4;
-    --white: #ffffff;
 }
 
 body {
@@ -33,6 +35,21 @@ h1, h2, h3, h4, h5, h6, p {
     padding: 0;
 }
 
+
+/* ==================================
+-- Variables
+================================== */
+
+:root {
+    --primary-color: #6a4df4;
+    --white: #ffffff;
+}
+
+
+/* ==================================
+-- Custom Button
+================================== */
+
 button.custom-btn {
     padding: 15px 42px;
     line-height: 26px;
@@ -44,6 +61,10 @@ button.custom-btn {
     background: var(--primary-color);
 }
 
+
+/* ==================================
+-- Nav Menu
+================================== */
 
 /* Navbar Section */
 
@@ -183,6 +204,10 @@ nav.navbar .container .mobile-menu-items ul {
 }
 
 
+/* ==================================
+-- Home Section
+================================== */
+
 /* Banner Section */
 
 #banner {
@@ -271,7 +296,9 @@ nav.navbar .container .mobile-menu-items ul {
 }
 
 
-/* Success Section */
+/* ==================================
+-- Success Section
+================================== */
 
 section.success-section {
     padding: 168px 0 152px 0;
@@ -321,7 +348,9 @@ section.success-section .container .success-box .right-content p {
 }
 
 
-/* Services Section */
+/* ==================================
+-- Services Section
+================================== */
 
 section.services-section {
     /* margin-bottom: 100px; */
@@ -384,7 +413,9 @@ section.services-section .container .service-cards .service-card .card-text {
 }
 
 
-/* Work Section */
+/* ==================================
+-- Work Section
+================================== */
 
 section.work-section {
     padding: 150px 0;
@@ -467,13 +498,92 @@ section.work-section .container .work-cards .work-card p.card-text {
 }
 
 
+/* ==================================
+-- Choose Section
+================================== */
 
-/* =============================================================================================== */
+section.choose-section {
+    padding: 150px 0;
+    background: #ffffff;
+}
+
+section.choose-section .container h3 {
+    max-width: 500px;
+    margin: 0 auto;
+    font-size: 45px;
+    font-weight: 700;
+    text-align: center;
+    color: #151515;
+}
+
+section.choose-section .container p {
+    max-width: 800px;
+    margin-bottom: 130px;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: #737373;
+}
+
+section.choose-section .container .choose-cards {
+    display: flex;
+    justify-content: space-between;
+}
+
+section.choose-section .container .choose-cards .column-cards {
+    display: flex;
+    flex-direction: column;
+    row-gap: 88px;
+}
+
+section.choose-section .container .choose-cards .column-cards .choose-card {
+    width: 344px;
+    height: 176px;
+}
+
+section.choose-section .container .choose-cards .column-cards .choose-card img {
+    width: 57px;
+    height: 64px;
+    margin-bottom: 20px;
+}
+
+section.choose-section .container .choose-cards .column-cards .choose-card h4 {
+    margin-bottom: 10px;
+    font-size: 25px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: all 0.4s ease;
+    color: #151515;
+}
+
+section.choose-section .container .choose-cards .column-cards .choose-card:hover h4 {
+    color: var(--primary-color);
+}
+
+section.choose-section .container .choose-cards .column-cards .choose-card p {
+    text-align: left;
+    line-height: 26px;
+    font-size: 16px;
+    color: #737373;
+}
+
+section.choose-section .container .choose-cards img {
+    border-radius: 25px;
+}
 
 
-/* ===========| Media Queries |=========== */
+/* ==========================| X ---- End ---- X |=============================== */
+
+
+
+
+/* =========================================================================== */
+/* -----------| Media Queries |----------- */
+/* =========================================================================== */
+
 
 /* Laptop Devices */
+
 @media only screen and (max-width: 1400px) {
     .navbar a.nav-link {
         font-size: 16px;
@@ -548,9 +658,20 @@ section.work-section .container .work-cards .work-card p.card-text {
         max-width: 300px;
         font-size: 15px;
     }
+
+    section.choose-section .container .choose-cards .column-cards .choose-card {
+        width: 300px;
+        height: 166px;
+    }
+
+    section.choose-section .container .choose-cards .column-cards .choose-card p {
+        max-width: 260px;
+    }
 }
 
+
 /* Tab Devices */
+
 @media only screen and (max-width: 980px) {
     section.success-section .container .success-box {
         flex-direction: column;
@@ -616,9 +737,24 @@ section.work-section .container .work-cards .work-card p.card-text {
     nav.navbar .container .mobile-menu-items {
         display: block;
     }
+
+    section.choose-section .container .choose-cards img.choose-img {
+        display: none;
+    }
+
+    section.choose-section .container .choose-cards .column-cards .choose-card {
+        width: 300px;
+        height: 166px;
+    }
+
+    section.choose-section .container .choose-cards .column-cards .choose-card p {
+        max-width: 250px;
+    }
 }
 
+
 /* Mobile Devices */
+
 @media only screen and (max-width: 750px) {
     section.success-section .container .success-box {
         flex-direction: column;
@@ -675,12 +811,29 @@ section.work-section .container .work-cards .work-card p.card-text {
     nav.navbar .container .mobile-menu-items {
         right: 25px;
     }
+
+    section.choose-section {
+        padding-bottom: 150px;
+    }
+
+    section.choose-section .container .choose-cards img.choose-img {
+        display: none;
+    }
+
+    section.choose-section .container .choose-cards .column-cards .choose-card {
+        width: 300px;
+        height: 166px;
+    }
+
+    section.choose-section .container .choose-cards .column-cards .choose-card p {
+        max-width: 250px;
+    }
 }
 
 
-/* =============================================================== */
-
-/* Mobile Nav Menu Responsive Styles */
+/* ==================================================================
+** --- Mobile Nav Menu Responsive Styles
+** =============================================================== */
 
 @media only screen and (min-width: 751px) and (max-width: 980px) {
     nav.navbar .container {
