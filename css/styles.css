@@ -747,6 +747,102 @@ section.review-section .container p {
 }
 
 
+/* ==================================
+-- Form Section
+================================== */
+
+section.form-section {
+    padding: 169px 0 131px;
+    background: #F3F3F3;
+}
+
+section.form-section .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 60px;
+}
+
+section.form-section .container .text-container h3.text-headline {
+    max-width: 450px;
+    margin-bottom: 20px;
+    font-size: 45px;
+    font-weight: 700;
+    color: #151515;
+}
+
+section.form-section .container .text-container p.first-paragraph {
+    max-width: 514px;
+    margin-bottom: 10px;
+    line-height: 26px;
+    font-size: 16px;
+    color: #7B7B7B;
+}
+
+section.form-section .container .text-container p.second-paragraph {
+    max-width: 526px;
+    line-height: 26px;
+    font-size: 16px;
+    color: #737373;
+}
+
+section.form-section .container form {
+    display: flex;
+    flex-direction: column;
+    padding: 38px 43px 64px;
+    border-radius: 20px;
+    background: #fff;
+}
+
+section.form-section .container form h4 {
+    margin-bottom: 30px;
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+    color: #151515;
+}
+
+section.form-section .container form label {
+    line-height: 26px;
+    font-size: 16px;
+    font-weight: 500;
+    color: #151515;
+}
+
+section.form-section .container form input {
+    width: 300px;
+    padding: 8px 16px;
+    font-size: 16px;
+    outline: none;
+    border: 1px solid #E8E8E8;
+    border-radius: 8px;
+}
+
+section.form-section .container form input:focus {
+    border: 1px solid hsl(0, 0%, 70%);
+}
+
+section.form-section .container form input.name-input,
+section.form-section .container form input.email-input {
+    margin-bottom: 20px;
+}
+
+section.form-section .container form input.phone-input {
+    margin-bottom: 30px;
+}
+
+section.form-section .container form button[type="submit"] {
+    padding: 8px 0;
+    line-height: 26px;
+    font-size: 16px;
+    font-weight: 600;
+    border: none;
+    border-radius: 8px;
+    color: var(--white);
+    background: var(--primary-color);
+}
+
+
 /* ==========================| X ---- End ---- X |=============================== */
 
 
@@ -930,6 +1026,32 @@ section.review-section .container p {
     .swiper-navBtn::after {
         display: none;
     }
+
+    section.form-section .container {
+        flex-direction: column;
+        row-gap: 80px;
+    }
+
+    section.form-section .container .text-container h3.text-headline {
+        margin-bottom: 50px;
+        text-align: center;
+    }
+    
+    section.form-section .container .text-container p.first-paragraph {
+        max-width: 314px;
+        margin: 0 auto 20px;
+        text-align: center;
+    }
+    
+    section.form-section .container .text-container p.second-paragraph {
+        max-width: 300px;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    section.form-section .container form {
+        margin: 0 auto;
+    }
 }
 
 
@@ -1009,6 +1131,32 @@ section.review-section .container p {
 
     section.choose-section .container .choose-cards .column-cards .choose-card p {
         max-width: 250px;
+    }
+
+    section.form-section .container {
+        flex-direction: column;
+        row-gap: 80px;
+    }
+
+    section.form-section .container .text-container h3.text-headline {
+        margin-bottom: 50px;
+        text-align: center;
+    }
+    
+    section.form-section .container .text-container p.first-paragraph {
+        max-width: 314px;
+        margin: 0 auto 20px;
+        text-align: center;
+    }
+    
+    section.form-section .container .text-container p.second-paragraph {
+        max-width: 300px;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    section.form-section .container form {
+        margin: 0 auto;
     }
 }
 
