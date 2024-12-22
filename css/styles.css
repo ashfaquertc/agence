@@ -1162,6 +1162,10 @@ section.form-section .container form button[type="submit"] {
     section.form-section .container form {
         margin: 0 auto;
     }
+
+    section.form-section .container {
+        justify-content: center;
+    }
 }
 
 @media only screen and (max-width: 600px) {
