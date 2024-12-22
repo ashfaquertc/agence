@@ -1166,7 +1166,12 @@ section.form-section .container form button[type="submit"] {
     section.form-section .container .text-container {
         margin: 0 auto;
     }
+
+    section.form-section .container form {
+        padding: 25px 30px 45px;
+    }
 }
+
 
 @media only screen and (max-width: 600px) {
     section.choose-section .container .choose-cards {
