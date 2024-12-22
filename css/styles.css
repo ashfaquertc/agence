@@ -572,6 +572,160 @@ section.choose-section .container .choose-cards img {
 }
 
 
+/* ==================================
+-- Review Section
+================================== */
+
+section.review-section {
+    padding: 150px 0;
+    background: #fff;
+}
+
+section.review-section .container h3 {
+    font-size: 45px;
+    font-weight: 700;
+    text-align: center;
+    color: #151515;
+}
+
+section.review-section .container p {
+    max-width: 609px;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: #737373;
+}
+
+/* Card Slider */
+
+.slide-container {
+    max-width: 1320px;
+    width: 100%;
+    padding: 40px 0;
+}
+  
+.slide-content {
+    margin: 0 60px;
+    overflow: hidden;
+    border-radius: 25px;
+}
+  
+.review-card {
+    /* width: 424px;
+    height: 422px; */
+    border-radius: 25px;
+    background: #FFF;
+}
+
+.swiper-navBtn {
+    color: #fff;
+    transition: color 0.3s ease;
+}
+  
+.swiper-navBtn::before,
+.swiper-navBtn::after {
+    padding: 14px 16px;
+    font-size: 12px;
+    border-radius: 50%;
+    background: #6E93f7;
+    transition: background 0.3s ease;
+}
+  
+.swiper-navBtn:hover::before,
+.swiper-navBtn:hover::after {
+    background: #4070F4;
+}
+  
+.swiper-navBtn:active::before,
+.swiper-navBtn:active::after {
+    background: #6E93f7;
+}
+  
+.swiper-button-next {
+    right: 10px;
+}
+  
+.swiper-button-prev {
+    left: 10px;
+}
+  
+.swiper-pagination-bullet {
+    background-color: #6E93f7;
+    opacity: 1;
+}
+  
+.swiper-pagination-bullet-active {
+    background-color: #4070F4;
+}
+  
+/* My CSS Cards */
+  
+.slide-container .slide-content .card-wrapper .review-card {
+    padding: 54px 58px;
+    transition: 0.4s;
+}
+  
+.slide-container .slide-content .card-wrapper .review-card:hover {
+    background: #F4EFEF;
+}
+  
+.slide-container .slide-content .card-wrapper .review-card p {
+    margin-bottom: 10px;
+    line-height: 26px;
+    max-width: 307px;
+    font-size: 10px;
+}
+  
+.slide-container .slide-content .card-wrapper .review-card img {
+    width: 58px;
+    height: 40px;
+    margin-bottom: 10px;
+}
+  
+.slide-container .slide-content .card-wrapper .review-card img.stars-icon {
+    width: 95px;
+    height: 24px;
+    margin-bottom: 15px;
+}
+  
+.slide-container .slide-content .card-wrapper .review-card .review-details {
+    display: flex;
+    column-gap: 20px;
+}
+  
+.slide-container .slide-content .card-wrapper .review-card .review-details .card-image {
+    height: 47px;
+    width: 47px;
+    object-fit: cover;
+    border-radius: 50%;
+    overflow: hidden;
+}
+  
+.slide-container .slide-content .card-wrapper .review-card .review-details .card-image img.card-img {
+    width: 47px;
+    height: 47px;
+    object-fit: cover;
+}
+  
+.slide-container .slide-content .card-wrapper .review-card .review-details .card-description {
+    display: flex;
+    flex-direction: column;
+}
+
+.slide-container .slide-content .card-wrapper .review-card .review-details .card-description h4 {
+    line-height: 120%;
+    font-size: 20px;
+    font-weight: 600;
+    color: #232323;
+}
+
+.slide-container .slide-content .card-wrapper .review-card .review-details .card-description p {
+    line-height: 26px;
+    font-size: 16px;
+    color: #7B7B7B;
+}
+
+
 /* ==========================| X ---- End ---- X |=============================== */
 
 
@@ -667,6 +821,10 @@ section.choose-section .container .choose-cards img {
     section.choose-section .container .choose-cards .column-cards .choose-card p {
         max-width: 260px;
     }
+
+    .slide-container {
+        max-width: 1120px;
+    }
 }
 
 
@@ -745,6 +903,21 @@ section.choose-section .container .choose-cards img {
 
     section.choose-section .container .choose-cards .column-cards .choose-card p {
         max-width: 250px;
+    }
+
+    .swiper-navBtn::before,
+    .swiper-navBtn::after {
+        display: none;
+    }
+}
+
+
+@media screen and (max-width: 768px) {
+    .slide-content{
+      margin: 0 10px;
+    }
+    .swiper-navBtn{
+      display: none;
     }
 }
 
