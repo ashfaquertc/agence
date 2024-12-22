@@ -1032,7 +1032,7 @@ section.form-section .container form button[type="submit"] {
         row-gap: 80px;
     }
 
-    section.form-section .container .text-container h3.text-headline {
+    /* section.form-section .container .text-container h3.text-headline {
         margin-bottom: 50px;
         text-align: center;
     }
@@ -1047,7 +1047,7 @@ section.form-section .container form button[type="submit"] {
         max-width: 300px;
         margin: 0 auto;
         text-align: center;
-    }
+    } */
 
     section.form-section .container form {
         margin: 0 auto;
