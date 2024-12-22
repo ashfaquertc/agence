@@ -1162,6 +1162,10 @@ section.form-section .container form button[type="submit"] {
     section.form-section .container {
         padding-right: 0;
     }
+
+    section.form-section .container .text-container {
+        margin: 0 auto;
+    }
 }
 
 @media only screen and (max-width: 600px) {
