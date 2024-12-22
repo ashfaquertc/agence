@@ -1143,13 +1143,14 @@ section.form-section .container form button[type="submit"] {
     }
 
     section.form-section .container .text-container h3.text-headline {
-        margin: 0 auto 50px;
+        /* margin: 0 auto 50px; */
+        margin-bottom: 50px;
         text-align: center;
     }
     
     section.form-section .container .text-container p.first-paragraph {
-        max-width: 314px;
-        margin: 0 auto 20px;
+        /* max-width: 314px;
+        margin: 0 auto 20px; */
         text-align: center;
     }
     
@@ -1161,10 +1162,6 @@ section.form-section .container form button[type="submit"] {
 
     section.form-section .container form {
         margin: 0 auto;
-    }
-
-    section.form-section .container {
-        justify-content: center;
     }
 }
 
