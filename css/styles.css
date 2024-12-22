@@ -1138,6 +1138,10 @@ section.form-section .container form button[type="submit"] {
         row-gap: 80px;
     }
 
+    section.form-section .container .text-container {
+        margin: 0 auto;
+    }
+
     section.form-section .container .text-container h3.text-headline {
         margin-bottom: 50px;
         text-align: center;
