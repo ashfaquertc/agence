@@ -984,6 +984,63 @@ form label {
 form a {
     text-decoration: none;
 }
+
+
+/* ==================================
+-- Footer Section
+================================== */
+
+footer {
+    padding-top: 146px;
+}
+
+hr {
+    margin-top: 50px;
+}
+
+footer .container .first-footer {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+footer .container .first-footer .logo-column {
+    max-width: 356px;
+}
+
+footer .container .first-footer .logo-column img.footer-logo {
+    margin-bottom: 30px;
+}
+
+footer .container .first-footer .logo-column p {
+    line-height: 26px;
+    font-size: 16px;
+    color: #7B7B7B;
+}
+
+footer .container .first-footer h4 {
+    margin-bottom: 40px;
+    font-size: 20px;
+    font-weight: 600;
+    color: #151515;
+}
+
+footer .container .first-footer ul li a {
+    line-height: 40px;
+    font-size: 16px;
+    color: #7B7B7B;
+}
+
+footer .container .second-footer {
+    padding: 33px 0;
+}
+
+footer .container .second-footer p {
+    line-height: 26px;
+    font-size: 16px;
+    text-align: center;
+    color: hsl(0, 0%, 60%);
+}
   
 
 
@@ -1229,8 +1286,36 @@ form a {
     .slide-content{
       margin: 0 10px;
     }
+
     .swiper-navBtn{
       display: none;
+    }
+
+    .logo-column {
+        margin-bottom: 40px;
+    }
+
+    .about-column {
+        margin-bottom: 40px;
+    }
+
+    .company-column {
+        margin-bottom: 40px;
+    }
+
+    .support-column {
+        margin-bottom: 40px;
+    }
+
+    .touch-column {
+        margin-bottom: 40px;
+    }
+
+    footer .container .first-footer .about-column,
+    footer .container .first-footer .company-column,
+    footer .container .first-footer .support-column,
+    footer .container .first-footer .touch-column {
+        text-align: center;
     }
 }
 
@@ -1318,7 +1403,7 @@ form a {
 }
 
 
-@media (max-width: 460px) {
+@media (max-width: 480px) {
     .form-contents h1 {
       font-size: 3.5rem;
     }
@@ -1329,6 +1414,24 @@ form a {
   
     form {
       padding: 15px;
+    }
+
+    footer .container .first-footer {
+        flex-direction: column;
+        row-gap: 60px;
+    }
+
+    footer .container .first-footer .logo-column {
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    footer .container .first-footer .about-column,
+    footer .container .first-footer .company-column,
+    footer .container .first-footer .support-column,
+    footer .container .first-footer .touch-column {
+        margin: 0 auto;
+        text-align: center;
     }
 }
 
