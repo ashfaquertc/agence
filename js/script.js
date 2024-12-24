@@ -15,7 +15,6 @@ button.addEventListener("click", (e) => {
 });
 
 
-
 // ==========================================================
 // -- Nav Menu Functionality
 // ==========================================================
@@ -34,6 +33,7 @@ window.onscroll = function() {
     navItems.style.top = "80px";
   } else {
     nav.classList.remove("sticky-nav");
+    navItems.style.top = "90px";
     navIcon.style.background = "hsla(0, 0%, 20%, 0.85)";
   }
 }

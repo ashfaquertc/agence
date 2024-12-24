@@ -187,6 +187,7 @@ button.section-btn:active {
     background: var(--primary-color);
 }
 
+
 /* ==================================
 -- Nav Menu
 ================================== */
@@ -260,7 +261,7 @@ nav.navbar .container .mobile-menu-items {
     display: none;
     position: absolute;
     right: 130px;
-    top: 75px;
+    top: 90px;
     text-align: center;
     border-radius: 20px;
     opacity: 0;
@@ -1089,6 +1090,23 @@ form a {
 /* Tab Devices */
 
 @media only screen and (max-width: 980px) {
+    nav.navbar {
+        top: 0;
+        padding: 20px 0;
+    }
+
+    #banner {
+        padding-top: 200px;
+    }
+
+    #banner .container h1 {
+        font-size: 55px;
+    }
+    
+    #banner .container p {
+        font-size: 14px;
+    }
+
     section.success-section .container .success-box {
         flex-direction: column;
         row-gap: 50px;
