@@ -183,7 +183,7 @@ button.section-btn:hover {
 }
 
 
-button.section-btn:hover {
+button.section-btn:active {
     background: var(--primary-color);
 }
 
