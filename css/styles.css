@@ -178,6 +178,14 @@ button.section-btn {
     background: var(--primary-color);
 }
 
+button.section-btn:hover {
+    background: hsl(250, 88%, 53%);
+}
+
+
+button.section-btn:hover {
+    background: var(--primary-color);
+}
 
 /* ==================================
 -- Nav Menu
