@@ -1,4 +1,22 @@
 // ==========================================================
+// -- Nav Button Animation Functionality
+// ==========================================================
+
+const button = document.querySelector(".custom-btn");
+
+button.addEventListener("click", (e) => {
+    e.preventDefault;
+
+    button.classList.add("animate");
+
+    setTimeout(() => {
+        button.classList.remove("animate");
+    }, 600);
+});
+
+
+
+// ==========================================================
 // -- Nav Menu Functionality
 // ==========================================================
 
