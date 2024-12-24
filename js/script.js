@@ -63,10 +63,13 @@ menuIcon.addEventListener("click", () => {
 // ==========================================================
 
 $('.banner-slider').slick({
-    arrows: false,
-    dots: true,
-    autoplay: true,
-    // fade: true,
+  arrows: false,
+  dots: true,
+  autoplay: true,
+  infinite: true,
+  speed: 500,
+  fade: true,
+  cssEase: 'linear'
 });
 
 
