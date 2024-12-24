@@ -65,7 +65,7 @@ menuIcon.addEventListener("click", () => {
 $('.banner-slider').slick({
   arrows: false,
   dots: true,
-  autoplay: true,
+  // autoplay: true,
   infinite: true,
   speed: 500,
   fade: true,
