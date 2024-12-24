@@ -230,7 +230,7 @@ nav.navbar.sticky-nav {
     top: 0;
     padding: 10px 0;
     color: var(--white);
-    background: hsla(0, 0%, 20%, 0.95);
+    background: hsla(0, 0%, 20%, 1);
 }
 
 /* Mobile Navbar */
@@ -243,12 +243,12 @@ nav.navbar .container .mobile-nav-icon {
     cursor: pointer;
     transition: 0.3s linear;
     color: #fff;
-    background: hsla(0, 0%, 20%, 0.85);
+    background: hsla(0, 0%, 20%, 1);
 }
 
-nav.navbar .container .mobile-nav-icon:active {
+/* nav.navbar .container .mobile-nav-icon:active {
     color: #000;
-}
+} */
 
 
 /* FontAwesome Icon X-mark */
@@ -295,7 +295,9 @@ nav.navbar .container .mobile-menu-items ul {
     flex-direction: column;
 }
 
+
 /* Menu Icon */
+
 .icon-container {
     display: inline-block;
     cursor: pointer;
@@ -1008,13 +1010,13 @@ form a {
     }
 
     #banner {
-        padding: 250px 0 120px;
+        padding: 240px 0 120px;
     }
 
     #banner .container h1 {
         margin-bottom: 15px;
         max-width: 900px;
-        font-size: 55px;
+        font-size: 60px;
     }
     
     #banner .container p {
@@ -1093,6 +1095,15 @@ form a {
     nav.navbar {
         top: 0;
         padding: 20px 0;
+    }
+
+    button.section-btn:hover {
+        background: var(--primary-color);
+    }
+    
+    
+    button.section-btn:active {
+        background: hsl(250, 88%, 53%);
     }
 
     #banner {

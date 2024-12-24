@@ -34,7 +34,7 @@ window.onscroll = function() {
   } else {
     nav.classList.remove("sticky-nav");
     navItems.style.top = "90px";
-    navIcon.style.background = "hsla(0, 0%, 20%, 0.85)";
+    navIcon.style.background = "hsla(0, 0%, 20%, 1)";
   }
 }
 
