@@ -1,4 +1,17 @@
 // ==========================================================
+// -- Contact Button Click Functionality
+// ==========================================================
+
+const contactBtn = document.getElementById("contact-btn");
+
+contactBtn.onclick = function () {
+  setTimeout(() => {
+    window.location.href="https://ashfaquehossainabir.github.io/contact-me/"
+  }, 700);
+}
+
+
+// ==========================================================
 // -- Nav Button Animation Functionality
 // ==========================================================
 

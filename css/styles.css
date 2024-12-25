@@ -1054,7 +1054,7 @@ footer .container .second-footer p {
 /* =========================================================================== */
 
 
-/* Laptop Devices */
+/* Large Screen Devices */
 
 @media only screen and (max-width: 1400px) {
     .navbar a.nav-link {
@@ -1146,7 +1146,6 @@ footer .container .second-footer p {
 }
 
 
-/* Tab Devices */
 
 @media only screen and (max-width: 980px) {
     nav.navbar {
@@ -1320,7 +1319,7 @@ footer .container .second-footer p {
 }
 
 
-/* Mobile Devices */
+/* Medium Screen Devices */
 
 @media only screen and (max-width: 750px) {
     section.success-section .container .success-box {
@@ -1402,6 +1401,8 @@ footer .container .second-footer p {
     }
 }
 
+
+/* Small Screen Devices */
 
 @media (max-width: 480px) {
     .form-contents h1 {
